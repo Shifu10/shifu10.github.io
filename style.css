@@ -1,0 +1,112 @@
+body{
+  background-image: url("images/back1.png");
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.Heading{
+    font-family: 'Lobster', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 40px;
+}
+#h01{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+.green-highlight{
+    color: rgb(43, 226, 55);
+}
+.title{
+    font-size: 30px;
+    background-color: rgb(0, 249, 141);
+    color: rgb(116, 116, 116);
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    width: max-content;
+    
+}
+.half-width{
+  font-size: 20px;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  padding-left: 2%;
+  height: 490px;
+}
+.topside{
+  padding-bottom: 150px;
+}
+.half-width img{
+    width: 80%;
+}
+.dreamArea img{
+  width: 80%;
+}
+section{
+  height: 490px;
+}
+.link-button{
+  color: yellow;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, rgb(5, 250, 254), rgb(156, 156, 156));
+}
+.dreamArea{
+  height: 490px;
+  background-size: contain;
+  background-image: url("images/back2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 150px;
+}
+#exper{
+  margin: 105px;
+  
+}
+.experience-box{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 80%;
+}
+.experience-area{
+  background-image: url("images/expback.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#experience-border{
+  border-left: 7px solid;
+  border-image: linear-gradient(yellow, rgb(49, 59, 4));
+  border-image-slice: 1;
+  background-color: white;
+}
+#noob-border{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgba(11, 243, 193, 0.966), rgb(7, 90, 243));
+  border-image-slice: 1;
+  background-color: rgb(255, 255, 255);
+}
+.exp-heading{
+  font-size: 50px;
+  color: rgb(0, 227, 252);
+}
+#footer{
+  margin: 100px;
+  text-align: center;
+  
+}
+
+#hire:hover{
+  color: chartreuse;
+}
+#resume:hover{
+  color: chartreuse;
+}
+
+.style
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
